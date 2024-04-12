@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-177242401-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-177242401-1');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kevin Henry - Développeur web et web mobile</title>
+    <meta name="description" content="Un développeur web passionné par l'art de la création et l'exploration des expériences digitales." />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.lineicons.com/2.0/LineIcons.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" type="image/png" href="assets/images/icondev.png">
+</head>
+
+<body>
+  <!-- Le menu Mobile  -->
+  <div id="home" class="visuallyHidden"></div>
+  <div class="menuButton" id="menuButton" tabindex=0>
+    <div class="linesContainer">
+      <span></span>
+    </div>
+  </div>
+  <!-- Menu côté -->
+  <aside class="sideMenu sideMenuShow" id="sideMenu"> 
+    <p class="logo">KH</p>
+
+    <nav>
+      <ul class="navBar">
+        <li class="homeNav">
+          <a href="#home" class="navItem">
+            <i class="lni lni-home"></i>
+            <span class="navItemName">ACCUEIL</span>
+          </a>
+        </li>
+        <li class="aboutNav">
+          <a href="#about" class="navItem">
+            <i class="lni lni-user"></i>
+            <span class="navItemName">A PROPOS</span>
+          </a>
+        </li>
+        <li class="skillsNav">
+          <a href="#skills" class="navItem">
+            <i class="lni lni-code-alt"></i>
+            <span class="navItemName">COMPÉTENCES</span>
+          </a>
+        </li>
+        <li class="worksNav">
+          <a href="#works" class="navItem">
+            <i class="lni lni-briefcase"></i>
+            <span class="navItemName">MES PROJETS</span>
+          </a>
+        </li>
+        <li class="contactNav">
+          <a href="#contact" class="navItem">
+            <i class="lni lni-phone"></i>
+            <span class="navItemName">CONTACT</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="scrollDown" id="scrollDown">
+      <i class="lni lni-arrow-down"></i>
+      <span class="navItemName scrollDownText">Défilé vers le bas</span>
+    </div>
+  </aside>
+
+  <!--Début du wrapper -->
+  <div class="outerWrapper"> 
+    <div class="innerWrapper">
+      <!-- Header -->
+      <header>
+        <div class="heroImageContainer">
+          <img src="assets/images/myself.jpg" alt="ma photo">
+        </div>
+        <div class="heroDescription">
+          <p class="greeting">Présentation</p>
+          <h1><span>Kevin</span> HENRY</h1>
+          <p class="smallBio">Je suis passionné par le monde du <span>développement web</span>. <br>Après avoir exploré divers domaines professionnels, j'ai décidé de suivre ma passion pour la technologie et de me reconvertir en tant que <span>développeur web</span>. <br>Je suis actuellement en pleine transition vers cette nouvelle carrière, où je m'immerge avec enthousiasme dans l'apprentissage des langages de programmation, des frameworks et des technologies émergentes. <br>Mon objectif est de créer des expériences utilisateur exceptionnelles et des interfaces web fonctionnelles et esthétiques.</p>
+          
+          <div class="socialsResume">
+            <a class="resumeLink" href="assets/Cv Kevin Henry.pdf" alt="mon cv" target="_blank" rel="noopener noreferrer">MON CV</a>
+            <ul class="socialsList">
+              <li>
+                <a href="https://github.com/KevinHenry-dev" target="_blank" rel="noopener noreferrer"><img src="assets/images/github.png" aria-label="Lien vers mon github"></aria-label=></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/kevinhenry-cl/" target="_blank" rel="noopener noreferrer"><img src="assets/images/linkedin.png" aria-label="Lien vers mon profile Linkedin"></aria-label=></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <!-- Début du contenu -->
+      <main>
+        <!-- Section INFORMATIONS -->
+        <section class="aboutSection" id="about">
+          <div class="sectionHead">
+            <span>INFORMATIONS</span>
+            <h2>A PROPOS</h2>
+          </div>
+          
+          <article class="aboutContainer sectionContainer">
+            <p>Depuis octobre 2023, je suis un cursus de formation intensif chez Next Formation en vue d'obtenir le titre de développeur web et web mobile. <br>Actuellement en stage, je mets en pratique les connaissances acquises en cours où je suis exposé à une variété de langages et de frameworks. <br>Explorez mon portfolio pour voir mes réalisations et suivre mon évolution dans ce passionnant voyage vers le développement web !
+
+            </p>
+          </article>
+        </section>
+
+        <!-- Section des compétences -->
+        <section class="skillsSection" id="skills">
+          <div class="sectionHead">
+            <span>Mes</span>
+            <h2>COMPÉTENCES</h2>
+          </div>
+        
+          <div class="skillsContainer sectionContainer">
+            <ul class="skillsGrid">
+              <li>
+                <div class="itemContainer">
+                    <img src="assets/skills/html.svg">
+                    <p>HTML</p>
+                </div>
+            </li>
+            <li>
+                <div class="itemContainer">
+                    <img src="assets/skills/css.svg">
+                    <p>CSS</p>
+                </div>
+            </li>
+            <li>
+                <div class="itemContainer">
+                    <img src="assets/skills/vscode.svg">
+                    <p>VS Code</p>
+                </div>
+            </li>
+              <li>
+                <div class="itemContainer">
+                <img src="assets/skills/symfony.svg">
+                 <p>Symfony</p>
+                </div>
+                  </li>
+                  <li>
+                      <div class="itemContainer">
+                          <img src="assets/skills/git.svg">
+                          <p>Git</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemContainer">
+                            <img src="assets/skills/php.svg">
+                        <p>PHP</p>
+                    </div>
+                </li>
+                <li>
+                    <div class="itemContainer">
+                        <img src="assets/skills/bootstrap.svg">
+                        <p>Bootstrap</p>
+                    </div>
+                </li>
+                <li>
+                <div class="itemContainer">
+                    <img src="assets/skills/javascript.svg">
+                    <p>Javascript</p>
+                  </div>
+              </li>
+              <li>
+                  <div class="itemContainer">
+                      <img src="assets/skills/react.svg">
+                      <p>React</p>
+                  </div>
+              </li>
+                <li>
+                    <div class="itemContainer">
+                  <img src="assets/skills/jquery.svg">
+                  <p>JQuery</p>
+                </div>
+            </li>
+                <li>
+                    <div class="itemContainer">
+                        <img src="assets/skills/api.svg">
+                        <p>REST API</p>
+                      </div>
+                  </li>
+                    <li>
+                        <div class="itemContainer">
+                            <img src="assets/skills/node.svg">
+                            <p>NODE JS</p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="itemContainer">
+                            <img src="assets/skills/sass.svg">
+                            <p>SASS</p>
+                  </div>
+                </li>
+                <li>
+                    <div class="itemContainer">
+                        <img src="assets/skills/apple.svg">
+                        <p>Apple</p>
+                    </div>
+                </li>
+            </ul>
+          </div>
+        </section>
+
+        <!-- Section Projets -->
+        <section class="worksSection" id="works">
+          <div class="sectionHead">
+            <span>MES</span>
+            <h2>PROJETS</h2>
+          </div>
+
+          <div class="worksContainer sectionContainer">
+            <article class="workBox">
+              <div class="workImageContainer">
+                <img src="assets/images/MonSite.png" alt="mon site">
+              </div>
+              <div class="workDescribeContainer">
+                <h3>En cours de réalisation</h3>
+                <h4>Technologies utilisées <span class="techStack">Symfony</span>, <span class="techStack">Bootstrap</span>, <span class="techStack">PHP</span></h4>
+                <ul>
+                  <li>Site web regroupant tous les terrains de basket publics</li>
+                  <li>Créer une communauté autour du basket-ball</li>
+                  
+                </ul>
+<!--                 <div class="workLinks">
+                  <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" class="liveLink" target="_blank" rel="noopener noreferrer">Live</a>
+                  <a href="https://en.wikipedia.org/wiki/Lorem_ipsum" class="repoLink" target="_blank" rel="noopener noreferrer">Repo</a>
+                </div> -->
+              </div>
+            </article>
+
+          </div>
+        </section>
+
+        <!-- Section formulaire de contact -->
+        <section class="contactSection" id="contact">
+          <div class="sectionHead">
+            <span></span>
+            <h2>CONTACT</h2>
+          </div>
+
+          <div class="contactContainer sectionContainer">
+            <h3>Me contacter</h3>
+            <div class="contactTypes">
+                <div class="flexContainer">
+                    <div class="typeBox">
+                        <i class="lni lni-envelope"></i>
+                        <a href="mailto:kevinhenry7@yahoo.fr" class="emailwrap">kevinhenry7@yahoo.fr</a>
+                    </div>
+                </div>
+            </div>
+            <div class="contactFormContainer">
+                <form id="contactForm" action="https://formspree.io/f/xqkryvqn" method="POST">
+                    <label for="nameInput" class="srOnly"></label>
+                    <input type="text" id="nameInput" name="nameInput" class="nameInput" required placeholder="Nom*" />
+                    <label for="emailInput" class="srOnly"></label>
+                    <input type="email" id="emailInput" name="emailInput" class="emailInput" required placeholder="Email*" />
+                    <label for="subjectInput" class="srOnly"></label>
+                    <input type="text" id="subjectInput" name="subjectInput" class="subjectInput" required placeholder="Sujet*" />
+                    <label for="messageInput" class="srOnly"></label>
+                    <textarea class="messageInput" name="messageInput" id="messageInput" required placeholder="Message*"></textarea>
+                    <button type="submit" class="formSend" rel="noopener noreferrer">ENVOYER</button>
+                </form>
+            </div>
+        </div>
+        
+
+        </section>
+      </main> <!-- Fin du contenu -->
+    </div>
+    <!-- Footer -->
+    <footer>
+      <p>&copy; Kevin HENRY 2024</p>
+    </footer>
+    <!-- Icons provided by https://lineicons.com/ -->
+  </div> 
+  <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>

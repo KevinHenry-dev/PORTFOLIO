@@ -97,7 +97,7 @@ form {
 }
 
 fieldset {
-  border: 1px solid silver;
+  border: 1px solid #fbfbff;
   margin: 0 2px;
   padding: .35em .625em .75em;
 }
@@ -163,11 +163,11 @@ table {
 }
 
 button, html, input, select, textarea {
-  color: #222;
+  color: fbfbff;
 }
 
 ::-moz-selection {
-  background: #0a5fc7;
+  background: #ffffff;
   text-shadow: none;
 }
 
@@ -192,7 +192,7 @@ textarea {
 
 .chromeframe {
   margin: .2em 0;
-  background: #c1d3fe;
+  background: #fbfbff;
   color: #000000;
   padding: .2em 0;
 }
@@ -242,17 +242,17 @@ textarea {
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 125%;
-  background: #fbfefb;
+  background: #1e275d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #000000;
+  color: #fbfbff;
   position: relative;
 }
 
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
 }
 
 section {
@@ -272,7 +272,7 @@ section {
 }
 
 .sectionContainer {
-  background-color:  #c1d3fe;
+  background-color:  #687594;
   border-radius: 50px;
   padding: 48px;
 }
@@ -308,7 +308,7 @@ section {
 }
 
 .techStack {
-  color: #c1d3fe;
+  color: #fbfbff;
 }
 
 .menuButton {
@@ -324,7 +324,7 @@ section {
 }
 
 .menuButton:focus {
-  border: 2px solid rgb(255, 255, 255);
+  border: 2px solid rgba(255, 255, 255, 0.25);
 }
 
 .menuButton .linesContainer {
@@ -335,7 +335,7 @@ section {
   border-radius: 5px;
   width: 25px;
   height: 2px;
-  background-color: rgb(0, 0, 0);
+  background-color: #fbfbff;
   position: absolute;
   display: block;
   content: '';
@@ -367,7 +367,7 @@ section {
           justify-content: space-between;
   width: 105px;
   height: 100vh;
-  background-color: #c1d3fe;
+  background-color: #687594;
   position: fixed;
   color: white;
   -webkit-transition: all 0.3s ease-in;
@@ -414,9 +414,9 @@ section {
 }
 
 .sideMenu nav a:hover, .sideMenu nav a:focus {
-  background-color:  rgb(205, 164, 164);
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+  background-color:  #8d99ae;
+  -webkit-box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25);
+          box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25);
 }
 
 .sideMenu .scrollDown {
@@ -428,7 +428,7 @@ section {
 .sideMenu .scrollDown .lni-arrow-down {
   line-height: 1.2;
   font-size: 2rem;
-  color: #000000;
+  color: #fbfbff;
 }
 
 .sideMenu .scrollDown .scrollDownText {
@@ -437,7 +437,7 @@ section {
   top: 10px;
   left: 30px;
   font-weight: 300;
-  color: #000000;
+  color: #fbfbff;
 }
 
 .hoverMenu {
@@ -519,12 +519,12 @@ header .heroDescription h1 {
 }
 
 header .heroDescription h1 span {
-  color:rgb(205, 164, 164);
+  color: #8d99ae;
 }
 
 header .heroDescription .smallBio {
   letter-spacing: 1px;
-  color: #5F6F81;
+  color: #fbfbff;
   font-size: 1rem;
   min-width: 250px;
   line-height: 1.4;
@@ -532,7 +532,7 @@ header .heroDescription .smallBio {
 }
 
 header .heroDescription .smallBio span {
-  color: rgb(205, 164, 164);
+  color: #8d99ae;
   font-size: 1.1rem;
 }
 
@@ -545,7 +545,7 @@ header .heroDescription .socialsResume {
 }
 
 header .heroDescription .socialsResume .resumeLink {
-  background-color: rgb(240, 237, 237);
+  background-color: #040404;
   padding: 15px 35px;
   border-radius: 40px;
   letter-spacing: 2px;
@@ -558,17 +558,17 @@ header .heroDescription .socialsResume .resumeLink {
 }
 
 header .heroDescription .socialsResume .resumeLink:hover {
-  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25);
+          box-shadow: 0 14px 28px rgba(255, 255, 255, 0.25);
           display: block;
           text-align: center; margin: auto;
 }
 
 header .heroDescription .socialsResume .resumeLink:focus {
-  border-color: #80bdff;
+  border-color: #ffffff;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
           display: block;
 }
 
@@ -596,7 +596,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
   padding: 9px 10px;
   background-color: rgb(255, 255, 255);
   border-radius: 6px;
-  color: rgb(240, 237, 237);
+  color: rgb(0, 0, 0);
   border: 1px solid rgb(240, 237, 237);
   -webkit-box-shadow: 0px 4px 6px rgba(134, 151, 168, 0.1);
           box-shadow: 0px 4px 6px rgba(134, 151, 168, 0.1);
@@ -619,10 +619,10 @@ header .heroDescription .socialsResume .resumeLink:focus {
 }
 
 .socialsList li a:focus {
-  border-color: #80bdff;
+  border-color: #ffffff;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
           display: flex;  
   flex-wrap: wrap;
   text-align: center;
@@ -634,7 +634,7 @@ header .heroDescription .socialsResume .resumeLink:focus {
 }
 
 .aboutContainer p span {
-  color: rgb(205, 164, 164);
+  color: #fffbfb;
 }
 
 .skillsContainer {
@@ -658,9 +658,10 @@ header .heroDescription .socialsResume .resumeLink:focus {
   width: 80px;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  -webkit-box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
-          box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+  -webkit-box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.25);
   border: 1px solid #eee;
+  color: #000000;
 }
 
 .skillsGrid li p {
@@ -679,8 +680,8 @@ header .heroDescription .socialsResume .resumeLink:focus {
   padding: 30px;
   margin-top: 40px;
   border-radius: 15px;
-  -webkit-box-shadow: 0px 14px 28px rgba(134, 151, 168, 0.08);
-          box-shadow: 0px 14px 28px rgba(134, 151, 168, 0.08);
+  -webkit-box-shadow: 0px 14px 28px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 14px 28px rgba(255, 255, 255, 0.25);
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   border: 1px solid #eee;
@@ -740,9 +741,11 @@ header .heroDescription .socialsResume .resumeLink:focus {
 }
 
 .workBox .workDescribeContainer h4 span {
-  color: rgb(114, 108, 108);
+  color: #8d99ae;
   display: inline-block;
   padding: 0 5px;
+  font-weight: bold;
+  font-size: 1.1rem;
 }
 
 .workBox .workDescribeContainer .workLinks {
@@ -752,13 +755,13 @@ header .heroDescription .socialsResume .resumeLink:focus {
 .workBox .workDescribeContainer .workLinks a {
   font-size: 1.1rem;
   margin-right: 20px;
-  color: rgb(205, 164, 164);
+  color: rgba(255, 255, 255, 0.25);
   display: inline-block;
   text-decoration: underline;
 }
 
 .workBox .workDescribeContainer .workLinks a:focus {
-  border: 2px solid rgb(205, 164, 164);
+  border: 2px solid rgba(255, 255, 255, 0.25);
 }
 
 .contactContainer h3 {
@@ -800,8 +803,8 @@ header .heroDescription .socialsResume .resumeLink:focus {
 }
 
 .contactTypes .flexContainer .typeBox {
-  -webkit-box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
-          box-shadow: 0px 4px 8px rgba(134, 151, 168, 0.1);
+  -webkit-box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 4px 8px rgba(255, 255, 255, 0.25);
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
   border: 1px solid #eee;
@@ -831,18 +834,18 @@ header .heroDescription .socialsResume .resumeLink:focus {
 .contactTypes .flexContainer .typeBox a {
   display: block;
   margin-bottom: 15px;
-  color: #333;
+  color: #000000;
   text-decoration: underline;
   font-size: 1rem;
 }
 
 .contactTypes .flexContainer .typeBox a:focus {
-  border: 2px solid rgb(205, 164, 164);
+  border: 2px solid rgb(255, 255, 255);
 }
 
 .contactTypes .flexContainer .typeBox p {
   font-size: 0.8rem;
-  color: #5F6F81;
+  color: #fbfbff;
 }
 
 .contactFormContainer {
@@ -885,10 +888,10 @@ header .heroDescription .socialsResume .resumeLink:focus {
 
 .contactFormContainer form input:focus,
 .contactFormContainer form textarea:focus {
-  border-color: #80bdff;
+  border-color: fbfbff;
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
 .contactFormContainer form textarea {
@@ -935,29 +938,30 @@ header .heroDescription .socialsResume .resumeLink:focus {
 }
 
 .contactFormContainer button {
-  padding: 14px 40px;
+  padding: 15px 35px;
   font-size: 0.9rem;
   border: none;
-  background-color: rgb(240, 237, 237);
-  color: rgb(0, 0, 0);
+  background-color: #8d99ae;
+  color: #fbfbff;
   letter-spacing: 1px;
   border-radius: 40px;
   width: 140px;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  font-weight: 500;
+  font-weight: bold;
+  text-align: center;
   }
 
 .contactFormContainer button:focus {
-  border-color: #80bdff;
+  border-color: rgba(255, 255, 255, 0.25);
   outline: 0;
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
-          box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+          box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
 }
 
 .contactFormContainer button:hover {
-  -webkit-box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0px 10px 40px 0px rgba(255, 255, 255, 0.25);
+          box-shadow: 0px 10px 40px 0px rgba(255, 255, 255, 0.25);
 }
 
 footer {
@@ -968,7 +972,7 @@ footer {
 footer p {
   width: 200px;
   margin: 0 auto;
-  color: #333;
+  color: #000000;
   font-size: 1rem;
   text-align: center;
 }
@@ -1134,8 +1138,8 @@ footer p {
     margin: 5px;
   }
   header .heroImageContainer img {
-    -webkit-box-shadow: 12px 0 #c1d3fe;
-            box-shadow: 12px 0 #c1d3fe;
+    -webkit-box-shadow: 12px 0 #000000;
+            box-shadow: 12px 0 #000000;
   }
   /* .socialsList {
     -webkit-box-pack: center;

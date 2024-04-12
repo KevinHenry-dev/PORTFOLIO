@@ -964,18 +964,34 @@ header .heroDescription .socialsResume .resumeLink:focus {
           box-shadow: 0px 10px 40px 0px rgba(255, 255, 255, 0.25);
 }
 
+
+
+
 footer {
-  padding: 20px;
+  padding: 10px;
   background-color: rgb(255, 255, 255);
+  color: #000000;
 }
 
-footer p {
-  width: 200px;
-  margin: 0 auto;
-  color: #000000;
-  font-size: 1rem;
-  text-align: center;
+.footer-content {
+  display: flex;
+  align-items: center; /* Centrer verticalement */
+  justify-content: center; /* Centrer horizontalement */
+  flex-wrap: wrap; /* Permettre le retour à la ligne si nécessaire */
 }
+
+.footer-content p {
+  margin: 0; /* Supprimer les marges par défaut du paragraphe */
+}
+
+.social-links {
+  margin-left: 20px; /* Espacement entre le paragraphe et les liens */
+}
+
+.social-links a {
+  margin: 0 10px; /* Espacement entre les liens */
+}
+
 
 /**********************/
 /*   MAX WIDTH 1040PX */
